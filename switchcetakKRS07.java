@@ -24,6 +24,8 @@ public class switchcetakKRS07 {
             break;
             case 8 : System.out.println("KRS Semester 8 ditampilkan");
             break;
+            default :
+            System.out.println("Semester tidak valid");
         }
     }
 }
