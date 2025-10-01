@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class iCetakKRS07 {
+public class ifCetakJB1 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in); 
 
