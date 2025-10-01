@@ -12,7 +12,7 @@ public class NestedUjianSkripsi07 {
     System.out.println("Masukkan jumlah log pembimbingan 2");
     int logPembimbing2 = scanner.nextInt();
 
-    if (kompen == "Ya") {
+    if (kompen == "Ya") { 
         if (logPembimbing1 >= 3 && logPembimbing2 >= 4) {
             System.out.println("Semua syarat terpenuhi. Mahasiswa boleh mendaftar ujian skripsi");
         } else if (logPembimbing1 < 8 && logPembimbing2 <= 4) {
@@ -23,6 +23,7 @@ public class NestedUjianSkripsi07 {
     } else if (logPembimbing2 < 4) {
         System.out.println("Gagal log pembimbing p2 kurang dari 4 kali");
     } else {
+        
         // String pesan = "";
         System.out.println("Gagal! Mahasiswa masih memiliki tanggungan kompen");
         // System.out.println(pesan);
