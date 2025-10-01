@@ -13,7 +13,7 @@ public class Tugas3 {
                 System.out.println("Akses WiFi diberikan (mahasiswa aktif)");
             } else {
                 System.out.println("Akses ditolak, SKS kurang dari 12");
-            }
+            } 
         } else {
             System.out.println("Akses ditolak");
         }
