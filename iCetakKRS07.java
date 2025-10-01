@@ -7,9 +7,9 @@ public class iCetakKRS07 {
         System.out.print("Apakah UKT sudah lunas? (true/false)");
         boolean uktLunas = input.nextBoolean();
 
-    if (uktLunas) {
+    if (uktLunas) { 
         System.out.println("Pembayaran UKT Terverifikasi");
-        System.out.println("Silahkan cetak KRS dan minta tanda tangan DPA");
+        System.out.println("Silahkan cetak KRS dan minta tanda tangan DPA"); 
 
     } 
     }   
